@@ -10,56 +10,108 @@ body {
   font-size: 32px;
   font-weight: lighter;
   color: hsl(240, 38%, 20%);
-  background-image: url(/images/pattern-bg.svg);
+  background-image: url(/testimonials_slider/images/pattern-bg.svg);
   background-repeat: no-repeat;
-  background-position: right 15% top 15%;
+  background-position: right 2.4em top 0.8em;
 }
 
-.right-container {
-  
- 
-  
-  
-}
-
-.slider-container {
+.button-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.tanya-img {
-  border-radius: 2%;
-}
-
-.left-container {
-  background-image: url(/images/pattern-quotes.svg);
-  background-repeat: no-repeat;
-  background-position-x: 3em;
-  padding-top: 110px;
-
-  
-  
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 10 10 10%;
+  z-index: 1;
+  border: 14px solid white;
+  border-radius: 50px;
+  margin-left: 785px;
+  margin-top: 45px;
+  box-shadow: 2px 2px 20px #888888;
+  background-color: white;
+  cursor: pointer;
 }
 
 .curve-image {
-  /* display: flex; */
-  
+  position: relative;
+  right: 5em;
+  top: 10px;
 }
 
-.styling {
-  display: flex;
-  padding-bottom: 200px;
+.left-container {
+  position: relative;
+  background-image: url(/testimonials_slider/images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position-x: 3em;
+  padding-top: 67px;
+  width: 45%;
+  left: 4.8em;
+  top: 5.8em;
+  z-index: 1;
+}
+.left-container-2 {
+  position: relative;
+  background-image: url(/testimonials_slider/images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position-x: 3em;
+  padding-top: 67px;
+  width: 45%;
+  left: 4.8em;
+  top: 5.8em;
+  z-index: 1;
 }
 
 .name-style {
   font-size: smaller;
   font-weight: bold;
-  color: ;
+}
+
+.next {
+  margin-left: 45px;
+}
+
+.right-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 10rem;
+  top: 2.6em;
+}
+
+.right-container-2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 10rem;
+  top: 2.6em;
+}
+
+.styling {
+  display: flex;
+  /* padding-bottom: 200px; */
 }
 
 .title-style {
   font-size: smaller;
   margin-left: 20px;
   opacity: 50%;
+}
+
+.prev,
+.next {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.slider-container {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  position: relative;
+  /* margin-top: 10%; */
+}
+
+.tanya-img {
+  display: flex;
+  border-radius: 2%;
+  z-index: -1;
+  /* box-shadow: 20px 0px 200px hsl(240, 18%, 77%); */
 }
