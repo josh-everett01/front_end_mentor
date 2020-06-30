@@ -1,19 +1,18 @@
 var btn_next = document.querySelector('.next');
-var btn_prev = document.querySelector('.prev')
-var btn_nexttwo = document.querySelector('.nexttwo');
-var btn_prevtwo = document.querySelector('.prevtwo')
-var sliders = document.querySelectorAll('.slider-container')
+var btn_prev = document.querySelector('.prev');
+var btn_nextTwo = document.querySelector('.next-two');
+var btn_prevTwo = document.querySelector('.prev-two');
+var sliders = document.querySelector('.sliders');
 var sliderOne = document.getElementById('slider-container-one');
 var sliderTwo = document.getElementById('slider-container-two');
 var currentSliderIndex = 0;
 
 function next() {
 
-
   if (currentSliderIndex == 0) {
     sliderTwo.style.display = 'block';
     sliderOne.style.display = 'none';
-    currentSliderIndex += 1;
+    currentSliderIndex += 1 ;
   } else {
     sliderTwo.style.display = 'none';
     sliderOne.style.display = 'block';
@@ -37,7 +36,6 @@ function previous() {
 
 
 
-
 btn_next.addEventListener('click', () => {
 
   next();
@@ -47,14 +45,12 @@ btn_prev.addEventListener('click', () => {
 
   previous();
 });
-btn_nexttwo.addEventListener('click', () => {
+btn_nextTwo.addEventListener('click', () => {
 
   next();
 });
 
-btn_prevtwo.addEventListener('click', () => {
+btn_prevTwo.addEventListener('click', () => {
 
   previous();
 });
-
-
