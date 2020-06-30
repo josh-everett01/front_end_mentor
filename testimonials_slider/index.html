@@ -32,8 +32,8 @@
     </style>
   </head>
   <body>
-    <div id="slider-container">
-      <div class="left-container" id="left-container-one">
+    <div id="slider-container-one" class="slider-container">
+      <div class="container, left-container">
         “ I’ve been interested in coding for a while but never taken the jump,
         until now. I couldn’t recommend this course enough. I’m now in the job
         of my dreams and so excited about the future. ”
@@ -51,11 +51,11 @@
         </div>
       </div>
 
-      <div class="right-container" id="right-container-one">
+      <div class="container, right-container">
         <img
           src="/testimonials_slider/images/image-tanya.jpg"
           alt=""
-          class="tanya-img"
+          class="img"
         />
       </div>
       <div class="button">
@@ -66,7 +66,7 @@
             alt=""
           />
 
-          <img onclick="myFunction()"
+          <img
             class="next"
             src="/testimonials_slider/images/icon-next.svg"
             alt=""
@@ -74,34 +74,42 @@
         </button>
       </div>
     </div>
-    <!-- <div class="left-container-two" id="left-container-two">
-      “If you want to lay the best foundation possible I’d recommend taking this
-      course. The depth the instructors go into is incredible. I now feel so
-      confident about starting up as a professional developer. ” 
-      
-      <div class="styling">
-        <p class="name-style"><br />John Tarkpor</p>
-        <p class="title-style"><br />Junior Front-end Developer</p>
-      </div>
-
-
-      <div class="right-container-two" id="right-container-two">
-        <img
-          src="images/image-john.jpg"  alt="" class="john-img">
-      </div> -->
-
-
-
-
-      
-    </div>
-    <!-- <div class="container-two">
-        “ If you want to lay the best foundation possible I’d recommend taking
+    <div id="slider-container-two" class="slider-container">
+      <div class="container, left-container">
+        “If you want to lay the best foundation possible I’d recommend taking
         this course. The depth the instructors go into is incredible. I now feel
-        so confident about starting up as a professional developer. ” John
-        Tarkpor Junior Front-end Developer
-      <img src="/images/image-john.jpg" alt="" class="john-img">
-      </div> -->
+        so confident about starting up as a professional developer. ”
+        <div class="styling">
+          <p class="name-style"><br />John Tarkpor</p>
+          <p class="title-style"><br />Junior Front-end Developer</p>
+        </div>
+
+        <div class="curve-image">
+          <img
+            class="curve-img"
+            src="/testimonials_slider/images/pattern-curve.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="container, right-container">
+        <img src="images/image-john.jpg" alt="" class="img" />
+      </div>
+      <div class="button">
+        <button class="button-container">
+          <img
+            class="prevtwo"
+            src="/testimonials_slider/images/icon-prev.svg"
+            alt=""
+          />
+          <img
+            class="nexttwo"
+            src="/testimonials_slider/images/icon-next.svg"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
 
     <script src="/testimonials_slider/app.js"></script>
   </body>

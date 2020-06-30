@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-family: "Inter", sans-serif;
+    color: hsl(240, 38%, 20%);
+    font-size: 16px;
+    font-weight: lighter;
+    background-image: url(/testimonial_scroller_two/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .button {
+    position: relative;
+    bottom: 1em;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .curve-image {
+   display: flex;
+  }
+
+  .tanya {
+    top: 2em;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 2%;
+  }
+
+  .text-area {
+    margin-top: 4em;
+    background-image: url(/testimonial_scroller_two/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 8.6em;
+    position: relative;
+    font-size: 20px;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .name {
+    font-weight: bold;
+    color: hsl(240, 38%, 20%);
+  }
+
+  .title {
+    text-align: center;
+    align-self: center;
+    opacity: 50%;
+    margin-top: -1em;
+  }
+}
